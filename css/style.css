@@ -1,0 +1,128 @@
+/* ===============
+   VARIABLES 
+   =============== */
+
+:root {
+	--very-dark-magenta: hsl(300, 43%, 22%);
+	--soft-pink: hsl(333, 80%, 67%);
+	--dark-grayish-magenta: hsl(303, 10%, 53%);
+	--light-grayish-magenta: hsl(300, 24%, 96%);
+	--white: hsl(0, 0%, 100%);
+}
+
+/* ===============
+   GLOBAL SETTINGS 
+   =============== */
+
+/* Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+*/ *,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+	font-family: "League Spartan", sans-serif;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+
+/* ===============
+        MAIN 
+   =============== */
+
+/* ===============
+        LAYOUT 
+   =============== */
+
+body {
+	background-image: url(/assets/bg-pattern-bottom-desktop.svg);
+	background-repeat: no-repeat;
+}
+
+.container {
+	width: 69.375rem;
+	margin: 7.375rem auto 0 auto;
+	background-color: whitesmoke;
+	color: #444;
+}
+
+.top-section {
+	display: flex;
+}
+
+.top-section P {
+	margin-top: 16px;
+	color: #927b91;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.5625rem; /* 131.579% */
+	letter-spacing: -0.0396rem;
+}
+
+.main-heading {
+	color: var(--very-dark-magenta);
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 3rem;
+	letter-spacing: -0.125rem;
+}
+
+.heading-text {
+	flex: 1;
+	/* width: 25.75rem; */
+	margin-right: 92px;
+}
+
+.stars-content {
+	flex: 1;
+}
+
+.bottom-section {
+	display: flex;
+}
+
+/* grid */
+
+/* .heading-content {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.stars-content {
+	grid-column: 2/2;
+	grid-row: 2/2;
+} */
