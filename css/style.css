@@ -74,15 +74,16 @@ body {
 .container {
 	width: 69.375rem;
 	margin: 7.375rem auto 0 auto;
-	background-color: whitesmoke;
+
 	color: #444;
 }
 
 .top-section {
 	display: flex;
+	margin-bottom: 70px;
 }
 
-.top-section P {
+.heading-section P {
 	margin-top: 16px;
 	color: #927b91;
 	font-size: 19px;
@@ -109,20 +110,84 @@ body {
 
 .stars-content {
 	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.stars {
+	display: flex;
+	justify-content: center;
+	width: 445px;
+	gap: 5px;
+	background-color: var(--light-grayish-magenta);
+
+	border-radius: 8px;
+
+	padding: 25px;
+}
+
+.stars img {
+	width: 16px;
+	height: 16px;
+}
+
+.stars p {
+	padding-left: 17px;
+	color: var(--very-dark-magenta);
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+#guru {
+	margin-left: 48px;
+}
+
+#bestTech {
+	margin-left: 95px;
 }
 
 .bottom-section {
 	display: flex;
+	gap: 30px;
+	margin-bottom: 70px;
 }
 
-/* grid */
-
-/* .heading-content {
-	grid-column: 1/2;
-	grid-row: 1/2;
+.card {
+	background-color: var(--very-dark-magenta);
+	border-radius: 8px;
+	padding: 30px;
+	color: var(--white);
 }
 
-.stars-content {
-	grid-column: 2/2;
-	grid-row: 2/2;
-} */
+.top-card-section {
+	display: flex;
+	gap: 23px;
+	margin-bottom: 32px;
+	align-items: center;
+}
+
+.top-card-section img {
+	border-radius: 50%;
+	width: 40px;
+}
+
+.top-card-section__name p {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.top-card-section__name span {
+	color: var(--soft-pink);
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+#buyer2 {
+	margin-top: 25px;
+}
