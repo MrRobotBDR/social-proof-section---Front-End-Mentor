@@ -11,7 +11,7 @@
 }
 
 /* ===============
-   GLOBAL SETTINGS 
+   RESET 
    =============== */
 
 /* Josh's Custom CSS Reset
@@ -59,7 +59,7 @@ h6 {
 }
 
 /* ===============
-        MAIN 
+     MAIN LAYOUT
    =============== */
 
 body {
@@ -76,6 +76,9 @@ body {
 	margin: 0 auto;
 	color: #444;
 }
+/* =====================
+   TOP HEADING SECTION 
+   ===================== */
 
 .top-section {
 	display: flex;
@@ -88,7 +91,7 @@ body {
 	font-size: 19px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 1.5625rem; /* 131.579% */
+	line-height: 1.56rem;
 	letter-spacing: -0.0396rem;
 }
 
@@ -107,6 +110,10 @@ body {
 	/* width: 25.75rem; */
 	margin-right: 92px;
 }
+
+/* ===============
+   STARS / RATINGS 
+   =============== */
 
 .stars-content {
 	flex: 1;
@@ -147,8 +154,11 @@ body {
 	margin-left: 95px;
 }
 
+/* ===============
+   BOTTOM SECTION 
+   =============== */
+
 .bottom-section {
-	/* position: absolute; */
 	width: 1110px;
 	display: flex;
 	gap: 30px;
@@ -202,7 +212,9 @@ body {
 	bottom: -40px;
 }
 
-/* Media Queries */
+/* ===============
+   MEDIA QUERIES 
+   =============== */
 
 @media only screen and (max-width: 485px) {
 	.body {
