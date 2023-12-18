@@ -67,8 +67,8 @@ h6 {
    =============== */
 
 body {
-	background-image: url(/assets/bg-pattern-bottom-desktop.svg);
-	background-repeat: no-repeat;
+	/* background-image: url(/assets/bg-pattern-bottom-desktop.svg);
+	background-repeat: no-repeat; */
 }
 
 .container {
@@ -80,7 +80,7 @@ body {
 
 .top-section {
 	display: flex;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 .heading-section P {
@@ -100,6 +100,7 @@ body {
 	font-weight: 700;
 	line-height: 3rem;
 	letter-spacing: -0.125rem;
+	margin-bottom: 16px;
 }
 
 .heading-text {
@@ -121,9 +122,7 @@ body {
 	width: 445px;
 	gap: 5px;
 	background-color: var(--light-grayish-magenta);
-
 	border-radius: 8px;
-
 	padding: 25px;
 }
 
@@ -150,9 +149,10 @@ body {
 }
 
 .bottom-section {
+	position: absolute;
+	width: 1110px;
 	display: flex;
 	gap: 30px;
-	margin-bottom: 70px;
 }
 
 .card {
@@ -160,6 +160,7 @@ body {
 	border-radius: 8px;
 	padding: 30px;
 	color: var(--white);
+	max-height: 234px;
 }
 
 .top-card-section {
@@ -172,6 +173,10 @@ body {
 .top-card-section img {
 	border-radius: 50%;
 	width: 40px;
+}
+
+.top-card-section__name {
+	line-height: 17.5px;
 }
 
 .top-card-section__name p {
@@ -189,5 +194,11 @@ body {
 }
 
 #buyer2 {
-	margin-top: 25px;
+	position: relative;
+	bottom: -20px;
+}
+
+#buyer3 {
+	position: relative;
+	bottom: -40px;
 }
