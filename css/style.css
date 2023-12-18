@@ -62,12 +62,6 @@ h6 {
         MAIN 
    =============== */
 
-/* ===============
-        LAYOUT 
-   =============== */
-
-html {
-}
 body {
 	min-height: 100vh;
 	padding-top: 5rem;
@@ -206,4 +200,39 @@ body {
 #buyer3 {
 	position: relative;
 	bottom: -40px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 485px) {
+	.body {
+		max-width: 470px;
+	}
+	.container {
+		text-align: center;
+	}
+
+	.top-section {
+		flex-direction: column;
+	}
+
+	.heading-text {
+		margin-bottom: 20px;
+		width: 460px;
+	}
+
+	.stars,
+	#bestTech {
+		width: 327px;
+		margin: 0 0 0 50px;
+	}
+
+	.bottom-section {
+		flex-direction: column;
+		margin-left: 50px;
+	}
+
+	.card {
+		width: 327px;
+	}
 }
